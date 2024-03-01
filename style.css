@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3% 0 0 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#toggle-box {
+    background-color: black;
+    width: 110px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+#circle {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+
+
+#toggle-box img {
+    width: 35px;
+    height: 40px;
+}
+
+.toggle {
+    transform: translateX(53px);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
